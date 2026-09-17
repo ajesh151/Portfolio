@@ -8,11 +8,6 @@
  * The CV lives at `public/resume.pdf`. Replace that file with your real PDF.
  */
 
-import projectImage1 from "@/assets/project-1.jpg";
-import projectImage2 from "@/assets/project-2.jpg";
-import projectImage3 from "@/assets/project-3.jpg";
-import projectImage4 from "@/assets/project-4.jpg";
-
 export type SkillGroup = { category: string; items: string[] };
 
 export type Project = {
@@ -103,9 +98,9 @@ const placeholderDetail = {
 export const projects: Project[] = [
   {
     slug: "project-one",
-    name: "[Project Name]",
-    summary: "[Short description explaining what the project does and the problem it solves.]",
-    image: projectImage1,
+    name: "KU Infobot",
+    summary: "A rule based chatbot that answers questions related to Kathmandu University.",
+    image: "@/assets/projects/kuinfobot.png",
     imageAlt: "Placeholder interface preview for the first project",
     tech: ["React", "TypeScript", "Node.js", "PostgreSQL"],
     github: "https://github.com/[handle]/[repo]",
@@ -117,7 +112,7 @@ export const projects: Project[] = [
     slug: "project-two",
     name: "[Project Name]",
     summary: "[Short description explaining what the project does and the problem it solves.]",
-    image: projectImage2,
+    image:"@/assets/projects/kuinfobot.png",
     imageAlt: "Placeholder interface preview for the second project",
     tech: ["Python", "Machine Learning", "FastAPI"],
     github: "https://github.com/[handle]/[repo]",
@@ -129,7 +124,7 @@ export const projects: Project[] = [
     slug: "project-three",
     name: "[Project Name]",
     summary: "[Short description explaining what the project does and the problem it solves.]",
-    image: projectImage3,
+    image: "@/assets/projects/kuinfobot.png",
     imageAlt: "Placeholder architecture diagram for the third project",
     tech: ["Node.js", "Docker", "PostgreSQL"],
     github: "https://github.com/[handle]/[repo]",
@@ -141,7 +136,7 @@ export const projects: Project[] = [
     slug: "project-four",
     name: "[Project Name]",
     summary: "[Short description explaining what the project does and the problem it solves.]",
-    image: projectImage4,
+    image: "@/assets/projects/kuinfobot.png",
     imageAlt: "Placeholder command line interface preview for the fourth project",
     tech: ["C", "Linux", "Systems"],
     github: "https://github.com/[handle]/[repo]",

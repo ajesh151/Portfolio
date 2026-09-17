@@ -16,7 +16,7 @@ export function Certifications() {
       <div className="mx-auto max-w-6xl px-5 py-16 md:px-8">
         <Reveal>
           <SectionHeading
-            index="05"
+            index="100"
             title="Achievements & Certifications"
             id="certifications-heading"
           />

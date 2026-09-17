@@ -1,4 +1,4 @@
-import kuinfobot from "@/assets/kuninfobot.png";
+import kuinfobot from "@/assets/kuinfobot.png";
 import projectImage2 from "@/assets/project-2.jpg";
 import projectImage3 from "@/assets/project-3.jpg";
 import projectImage4 from "@/assets/project-4.jpg";
@@ -101,8 +101,15 @@ export const projects: Project[] = [
     github: "https://github.com/ajesh151/KU-INFOBOT",
     demo: "",
     features: ["Understands typos and synonyms", "Web Crawling", "KU info centralized"],
-    ...placeholderDetail,
-  },
+    overview: "",
+  problem: "The information frequently needed by the students about KU scattered across different websites.",
+  solution: "A chatbot that answers related questions based on user's query.",
+  role: "System Architect",
+  challenges: "Scattered Communication in team, Limited understanding of the framework",
+  learned: "Team Work, Object Oriented Programming, Git"
+
+    },
+  
   {
     slug: "project-two",
     name: "[Project Name]",

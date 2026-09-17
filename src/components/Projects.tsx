@@ -31,7 +31,7 @@ export function Projects() {
                     width={1024}
                     height={640}
                     loading="lazy"
-                    className="aspect-[16/10] w-full object-contain transition-transform duration-500 group-hover:scale-[1.02]"
+                    className="aspect-[16/9] w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
                   />
                 </button>
                 <div className="flex flex-1 flex-col p-6">

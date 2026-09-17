@@ -187,12 +187,12 @@ export const certifications: Certification[] = [
 }];
 
 export const navLinks = [
-  { label: "Home", href: "#home" },
+ // { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
-  { label: "Skills", href: "#skills" },
+ // { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#work" },
  // { label: "Experience", href: "#experience" },
-  { label: "Education", href: "#education" },
-  {label: "Achievements", href:"#certifications"},
+ // { label: "Education", href: "#education" },
+ // {label: "Achievements", href:"#certifications"},
   { label: "Contact", href: "#contact" },
 ];

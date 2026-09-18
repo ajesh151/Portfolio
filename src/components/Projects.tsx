@@ -12,7 +12,7 @@ export function Projects() {
     <section id="work" aria-labelledby="work-heading" className="border-t border-line/70">
       <div className="mx-auto max-w-6xl px-5 py-16 md:px-8">
         <Reveal>
-          <SectionHeading index="03" title="Selected Projects" id="work-heading" />
+          <SectionHeading index="03" title="Projects" id="work-heading" />
         </Reveal>
 
         <div className="grid gap-6 md:grid-cols-2">
@@ -31,7 +31,7 @@ export function Projects() {
                     width={1024}
                     height={640}
                     loading="lazy"
-                    className="aspect-[16/10] w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+                    className="aspect-[16/10] w-full object-contain transition-transform duration-500 group-hover:scale-[1.02]"
                   />
                 </button>
                 <div className="flex flex-1 flex-col p-6">

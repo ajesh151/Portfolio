@@ -1,10 +1,11 @@
 import { profile } from "@/data/portfolio";
 import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
+import { GraduationCap, MapPin } from "lucide-react";
 
 export function About() {
   const info = [
-    { label: "Education", value: profile.university },
+    { label: " Education", value: profile.university },
     { label: "Degree", value: profile.degree },
     { label: "Location", value: profile.campusLocation },
     { label: "Status", value: profile.status },
@@ -24,6 +25,9 @@ export function About() {
                   {p}
                 </p>
               ))}
+              <blockquote className="max-w-[58ch] border-l-2 border-accent pl-4 font-display text-lg font-medium leading-relaxed md:text-xl">
+                {profile.quote}
+              </blockquote>
             </div>
           </Reveal>
           <Reveal className="md:col-span-5" delay={120}>

@@ -34,7 +34,7 @@ export function ProjectDialog({
               alt={project.imageAlt}
               width={1024}
               height={640}
-              className="aspect-[16/10] w-full object-cover"
+              className="aspect-[16/10] w-full object-contain"
             />
             <div className="p-6 md:p-8">
               <DialogHeader className="text-left">

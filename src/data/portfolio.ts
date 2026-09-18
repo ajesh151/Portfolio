@@ -49,13 +49,14 @@ export const profile = {
   firstName: "Ajesh",
   lastName: "Pokhrel",
   label: "Computer Engineering Student",
-  headline: "Building useful software, one system at a time.",
+  headline: "Questioning limits to make the possible practical.",
   intro:
     "I'm a Computer Engineering student at Kathmandu University, working across software development, AI/ML, and systems.",
   aboutParagraphs: [
-    "I'm currently pursuing a degree in Computer Engineering at Kathmandu University. I enjoy understanding how systems work, building software, experimenting with new technologies, and turning ideas into working products.",
-    "My interests include software engineering, web development, artificial intelligence and machine learning, computer systems, and technology-driven problem solving.",
+    "I’m a Computer Engineering student who enjoys building things, solving problems, and figuring out how technology works beneath the surface. I’m interested in software development, AI and system design. I like experimenting with ideas, turning them into projects, and learning through the process rather than simply following predefined paths.",
+    "Outside of technology, I’m someone who values freedom, independence, and being true to myself. I care deeply about the people and things that matter to me, and the experiences I’ve had have shaped the way I see life and people. I’m still figuring out what I want my future to look like, but I know I want to keep growing, keep trying new things, and build a life that feels genuinely mine.",
   ],
+  quote: "Perhaps the closest humanity ever gets to the divine is when \rit creates.",
   email: "ajesh4325@student.ku.edu.np",
   phone: "+977 9804359920", // optional — leave empty to hide
   location: "Nepal",
@@ -104,7 +105,7 @@ export const projects: Project[] = [
     overview: "",
   problem: "The information frequently needed by the students about KU scattered across different websites.",
   solution: "A chatbot that answers related questions based on user's query.",
-  role: "System Architect",
+  role: "System Designer and Architect",
   challenges: "Scattered Communication in team, Limited understanding of the framework",
   learned: "Team Work, Object Oriented Programming, Git"
 
@@ -185,6 +186,33 @@ export const certifications: Certification[] = [
     date: "2023",
     credentialUrl: "https://drive.google.com/file/d/10meUZRg7h2x6TnZOLtdTqrbtGiN8xLLF/view?usp=drive_link"
 }];
+
+export type Hobby = { name: string; description: string };
+
+export const hobbies: Hobby[] = [
+  {
+    name: "One Piece",
+    description: "A reminder to stay curious, chase freedom, and never lose sight of the journey.",
+  },
+  {
+    name: "Chess",
+    description: "Something about thinking a few moves ahead and still getting surprised.",
+  },
+
+  {
+    name: "Music",
+    description: "Always got something playing in the background.",
+  },
+  {
+    name: "Football",
+    description: "For the love of the game, the competition, and the occasional heartbreak",
+  },
+
+  {
+    name: "Travel",
+    description: "A way of remembering that the world is bigger than the place I started.",
+  },
+];
 
 export const navLinks = [
  // { label: "Home", href: "#home" },

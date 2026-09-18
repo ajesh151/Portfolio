@@ -56,7 +56,7 @@ export const profile = {
     "I’m a Computer Engineering student who enjoys building things, solving problems, and figuring out how technology works beneath the surface. I’m interested in software development, AI and system design. I like experimenting with ideas, turning them into projects, and learning through the process rather than simply following predefined paths.",
     "Outside of technology, I’m someone who values freedom, independence, and being true to myself. I care deeply about the people and things that matter to me, and the experiences I’ve had have shaped the way I see life and people. I’m still figuring out what I want my future to look like, but I know I want to keep growing, keep trying new things, and build a life that feels genuinely mine.",
   ],
-  quote: "Perhaps the closest humanity ever gets to the divine is when \rit creates.",
+  quote: "“Perhaps the closest humanity ever gets to the divine is when \rit creates.”",
   email: "ajesh4325@student.ku.edu.np",
   phone: "+977 9804359920", // optional — leave empty to hide
   location: "Nepal",

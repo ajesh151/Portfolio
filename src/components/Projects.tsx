@@ -12,7 +12,7 @@ export function Projects() {
     <section id="work" aria-labelledby="work-heading" className="border-t border-line/70">
       <div className="mx-auto max-w-6xl px-5 py-16 md:px-8">
         <Reveal>
-          <SectionHeading index="03" title="Projects" id="work-heading" />
+          <SectionHeading index="03" title="My Projects" id="work-heading" />
         </Reveal>
 
         <div className="grid gap-6 md:grid-cols-2">
